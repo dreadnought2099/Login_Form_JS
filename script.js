@@ -6,7 +6,6 @@ function validateLogin() {
   const validUsers = {
     "qwer@gmail.com": "password1",
     "yutang@gmail.com": "password2",
-    "skermart18@gmail.com": "5541",
   };
 
   if (validUsers[username] && validUsers[username] === password) {
