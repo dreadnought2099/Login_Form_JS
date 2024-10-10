@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bank.css" />
+    <title>Bank Account</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>ATM Simulation</h2>
+      <div id="atm-int">
+        <label for="balance">My Balance:</label>
+        <input type="text" id="balance" readonly value="0" />
+        <div id="action">
+          <button onclick="checkBal()">Check Balance</button>
+          <button onclick="dep()">Deposit</button>
+          <button onclick="withdraw()">Withdraw</button>
+          <button onclick="exitATM()">Logout</button>
+        </div>
+      </div>
+      <p id="message"></p>
+      <p id="copyright"></p>
+    </div>
+    <script src="bank.js"></script>
+  </body>
+</html>
